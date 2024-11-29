@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        background-color: black;
+        text-align: center;
+      }
+      .md {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+      }
+      .div1,
+      .div2,
+      .div3 {
+        border: 2px solid white;
+      }
+      .div1 {
+        display: flex;
+        justify-content: space-between;
+        padding: 20px;
+        flex-wrap: wrap;
+        gap: 10px;
+      }
+      .div1 div {
+        border: 2px solid white;
+        height: 70px;
+        width: 100px;
+        border-radius: 15px;
+      }
+
+      .div2 {
+        display: flex;
+        padding: 20px;
+        gap: 5px;
+        flex-wrap: wrap;
+        /* flex-grow: 1; */
+
+        /* height: 250px; */
+      }
+      .div2 div {
+        display: flex;
+        /* flex-grow: ; */
+        border: 2px solid white;
+        height: 250px;
+        width: 80px;
+        border-radius: 10px;
+        /* flex-wrap: wrap; */
+      }
+      .div3 {
+        display: flex;
+        padding: 20px;
+        justify-content: space-between;
+        flex-wrap: wrap;
+      }
+      .div3 div {
+        border: 2px solid white;
+        height: 70px;
+        width: 150px;
+        border-radius: 15px;
+      }
+      
+      .div2_2 {
+        flex-grow: 1;
+        display: flex;
+        flex-shrink: 1;
+        flex-wrap: wrap;
+      }
+      .md {
+        border: 2px solid white;
+        padding: 10px;
+      }
+      img {
+        border-radius: 15px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-grow: 1;
+      }
+      img {
+        flex-shrink: 1;
+      }
+      h1 {
+        color: white;
+        border: 2px solid;
+        padding: 20px;
+        box-shadow: 1px 1px 10px 0px;
+      }
+      img{
+        height: 100%;
+        width: 100%;
+      }
+      /* .div2 div img{
+        flex-grow: 1;
+
+      } */
+    </style>
+  </head>
+  <body>
+    <h1>FLEXBOX PROPERTIES</h1>
+    <div class="md">
+      <div class="div1">
+        <div class="div1_1">
+          <img
+            height="70"
+            width="100"
+            src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/a52798da-f056-4008-b1d1-b7de2fbe1dce/dfsavdn-9abb7bb0-154d-4b25-8ebd-473a4b958f89.png/v1/fill/w_1280,h_732,q_80,strp/anime_style_lamborghini_wallpaper_by_resonance007_dfsavdn-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NzMyIiwicGF0aCI6IlwvZlwvYTUyNzk4ZGEtZjA1Ni00MDA4LWIxZDEtYjdkZTJmYmUxZGNlXC9kZnNhdmRuLTlhYmI3YmIwLTE1NGQtNGIyNS04ZWJkLTQ3M2E0Yjk1OGY4OS5wbmciLCJ3aWR0aCI6Ijw9MTI4MCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.q-K2poVKMAubn89y9exq5-74-YbomX4oTMFZwB4mhVI"
+            alt=""
+          />
+        </div>
+        <div class="div1_2">
+          <img
+            height="70"
+            width="100"
+            src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi2jkzA9ogW7AFzgISqiiBb6kE9wyWeNGScrIhkAbnjfsUUAfQaX2J7yJI-XXfYqT683nVYiLAB8FK4gLpMXKJhQCM3BftrVcHEOQBaDChvTPVK-hx6iDA-kJjx1ASGerPdRSwj-8q3phKUzvK4m8yNhBHoEfbF7TJuI4ISNeAwmtV1jg1K86q8y9BIXLmU/s1600/car-pc-desktop-4k.webp"
+            alt=""
+          />
+        </div>
+        <div class="div1_3">
+          <img
+            height="70"
+            width="100"
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxlosu6FTBv0EiFAcK_zetS2fKUuSYa-hNsA&s"
+            alt=""
+          />
+        </div>
+        <div class="div1_4">
+          <img
+            height="70"
+            width="100"
+            src="https://images.pexels.com/photos/733745/pexels-photo-733745.jpeg?cs=srgb&dl=pexels-cesarperez209-733745.jpg&fm=jpg"
+            alt=""
+          />
+        </div>
+      </div>
+      <div class="div2" style="display: flex; flex-wrap: wrap;">
+        <div class="div2_1">
+          <img
+           
+            src="https://i.pinimg.com/736x/6d/d6/10/6dd6100ecff13dd7cd5815da65892a04.jpg"
+            alt=""
+          />
+        </div>
+        <div class="div2_2">
+          <img
+           
+            src="https://images5.alphacoders.com/134/1342155.png"
+            alt=""
+          />
+        </div>
+        <div class="div2_3">
+          <img
+           
+            src="https://i.pinimg.com/736x/6d/d6/10/6dd6100ecff13dd7cd5815da65892a04.jpg"
+            alt=""
+          />
+        </div>
+      </div>
+      <div class="div3">
+        <div class="div3_1">
+          <img
+            height="70"
+            width="150"
+            src="https://wallpapers.com/images/featured/4k-car-g6a4f0e15hkua5oa.jpg"
+            alt=""
+          />
+        </div>
+        <div class="div3_2">
+          <img
+            height="70"
+            width="150"
+            src="https://www.chromethemer.com/download/hd-wallpapers/muscle-car-3840x2160.jpg"
+            alt=""
+          />
+        </div>
+        <div class="div3_3">
+          <img
+            height="70"
+            width="150"
+            src="https://wallpapers.com/images/hd/2013-dodge-charger-r-t-muscle-car-lxygkenro11k1iro.jpg"
+            alt=""
+          />
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
